@@ -1,7 +1,7 @@
 package hackerranksolutions.Java.Introduction.JavaCurrencyFormatter;
 
 /*	Author: George Ngandu
-    Github: github.com/gngandu
+        Github: github.com/gngandu
 	HackerRank: hackerrank.com/gngandu
  */
 import java.util.*;
