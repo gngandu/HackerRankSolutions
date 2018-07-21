@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hackerranksolutions.Java.Introduction.JavaRegex2DuplicateWords;
+package hackerranksolutions.Java.Strings.JavaRegEx.DuplicateWords;
     import java.util.Scanner ;
     import java.util.regex.Matcher ;
     import java.util.regex.Pattern ;
@@ -87,7 +87,7 @@ public class JavaRegex2DuplicateWords {
 
         public static void main(String[] args) {
 
-            String regex = "\\\\b(\\\\w+)(\\\\W+\\\\1\\\\b)+";
+            String regex = "\\b(\\w+)(\\W+\\1\\b)+";
             Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
             Scanner in = new Scanner(System.in);
